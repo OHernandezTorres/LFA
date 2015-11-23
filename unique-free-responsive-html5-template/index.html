@@ -9,6 +9,11 @@
 <link href="css/style.css" rel="stylesheet" type="text/css"> 
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
 <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+ <!-- Banner Reference -->
+<script src="js/jquery.min.js"></script>
+<link href="css/styleBanner.css" rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
  
 <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
@@ -46,7 +51,7 @@
 </header>
 <!--Header_section--> 
 
-<!--Hero_Section-->
+<!--Hero_Section
 <section id="hero_section" class="top_cont_outer">
   <div class="hero_wrapper">
     <div class="container">
@@ -67,6 +72,112 @@
   </div>
 </section>
 <!--Hero_Section--> 
+<!-- banner -->
+<section id="hero_section" class="top_cont_outer">
+	<div class="banner">
+			<!-- banner Slider starts Here -->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider3").responsiveSlides({
+							auto: true,
+							pager: true,
+							nav: true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+					  </script>
+					<!--//End-slider-script -->
+					<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider3">
+							<li>
+								<div class="banner-bg">
+									<div class="container">
+										<div class="banner-info">
+										    <div class="zoomIn wow animated" alt=""> 
+                                                <h3>Take the first step<span>to knowledge friends</span></h3>
+								                <p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch
+												playmakers, these kicks are ready to stand out.
+								                </p>
+                                            </div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img2">
+									<div class="container">
+										<div class="banner-info">
+										    <div class="zoomIn wow animated" alt=""> 
+											    <h3>Stay in touch<span>Lorem Ipsum</span></h3>
+											    <p>Inspired by bold colors and matching up to football’s on-pitch
+												playmakers, these kicks are ready to stand out.
+											    </p>
+										    </div>	
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img">
+									<div class="container">
+										<div class="banner-info">
+										    <div class="zoomIn wow animated" alt="">
+											    <h3>therefore always<span>looks reasonable</span></h3>
+											    <p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch
+												playmakers, these Brasil’s kicks are ready to stand out.
+											    </p>
+								            </div>	
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg">
+									<div class="container">
+										<div class="banner-info">
+										    <div class="zoomIn wow animated" alt="">
+											    <h3>dolore magna<span>eaque ipsa</span></h3>
+											    <p>Inspired by bold colors and matching up to football’s on-pitch
+												playmakers, these kicks are ready to stand out.
+											    </p>
+											</div>    
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="banner-bg banner-img2">
+									<div class="container">
+										<div class="banner-info">
+								            <div class="zoomIn wow animated" alt="">   
+											    <h3> trivial example,<span>who chooses</span></h3>
+											    <p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch
+												playmakers, these kicks Brasil’s are ready to stand out.
+											    </p>
+											</div>    
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+		          </div>
+	</div>
+</section>
+<!-- //banner -->
+
+
+
 
 <section id="aboutUs"><!--Aboutus-->
 <div class="inner_wrapper">
@@ -474,7 +585,7 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<!--<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>-->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
 <script type="text/javascript" src="js/jquery.nav.js"></script> 
