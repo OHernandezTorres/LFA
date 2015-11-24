@@ -169,12 +169,12 @@ p {
 }
 
 .navStyle ul li a:hover {
-    color: #df0031;
+    color: #27A9E1;
 }
 
 .navStyle > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
-    color: #df0031;
+    color: #27A9E1;
     background-color: transparent;
 }
 
@@ -191,7 +191,7 @@ p {
 .navStyle > li.active > a,
 .navStyle > li.active > a:hover {
     text-decoration: none;
-    color: #df0031;
+    color: #27A9E1;
     background-color: transparent;
 }
 
@@ -211,7 +211,7 @@ p {
 ---------------------------------*/
 
 .top_cont_outer {
-    background: #374B9E;
+    background: #27A9E1;
     position: relative;
 }
 
@@ -436,18 +436,18 @@ a.contact_btn {
     text-align: center;
     line-height: 49px;
     font-size: 16px;
-    color: #df0031;
+    color: #27A9E1;
     border-radius: 3px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    border: 2px solid #df0031;
+    border: 2px solid #27A9E1;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
 }
 
 a.contact_btn:hover {
-    background: #df0031;
+    background: #27A9E1;
     color: #fff;
 }
 
