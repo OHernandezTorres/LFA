@@ -769,6 +769,39 @@ img {
     background-color: #EFEFEF;
 }
 
+/* Mision
+---------------------------------*/
+#mision {
+    padding: 200px 0px;
+}
+
+.mision_area {
+    width: 960px;
+    margin: 0px auto;
+}
+.third {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+    max-width: 993px;
+}
+third {
+    width: 32%;
+}
+.fourth, .third, .half, .two-thirds, .three-fourths {
+    float: left;
+    margin-right: 2%;
+    min-height: 1px;
+}
+.third {
+    width: 35%;
+}
+.fourth, .third, .half, .two-thirds, .three-fourths {
+    float: left;
+    margin-right: 2%;
+    min-height: 1px;
+} 
+
 /* Contact
 ---------------------------------*/
 .page_section.contact {
