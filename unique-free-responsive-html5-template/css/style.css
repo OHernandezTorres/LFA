@@ -56,7 +56,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
-    color: #888888;
+    color: #0A0A0A;
     margin: 0;
 }
 
@@ -166,6 +166,7 @@ p {
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
+    background-color:#EFEFEF;
 }
 
 .navStyle ul li a:hover {
@@ -259,7 +260,7 @@ p {
 
 .top_left_cont p {
     font-size: 16px;
-    color: #F0FFFF;
+    color: #EFEFEF;
     margin: 0 0 30px 0;
     line-height: 26px;
 }
@@ -814,7 +815,7 @@ third {
 
 .contact_section h2 {
     font-size: 40px;
-    color: #ffffff;
+    color: #0A0A0A;
     margin: 0 0 50px 0;
     text-transform: uppercase;
 }
@@ -831,7 +832,7 @@ third {
 }
 
 .contact_block_icon.icon2 {
-    border-color: #df0031;
+    border-color: #49b5e7;
 }
 
 .contact_block_icon.icon3 {
@@ -848,11 +849,11 @@ third {
 }
 
 .contact_block_icon.icon2 {
-    border-color: #df0031;
+    border-color: #49b5e7;
 }
 
 .contact_block_icon.icon2 span {
-    background: #df0031;
+    background: #49b5e7;
 }
 
 .contact_block_icon.icon3 {
@@ -903,7 +904,7 @@ third {
     line-height: 28px;
     display: block;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     margin: 0 0 30px;
 }
 
@@ -944,11 +945,11 @@ third {
 }
 
 .pinterest a:hover {
-    color: #cb2026;
+    color: #49b5e7;
 }
 
 .gplus a:hover {
-    color: #dd4b39;
+    color: #49b5e7;
 }
  
 
@@ -964,7 +965,7 @@ third {
     display: block;
     border-radius: 4px;
     font-size: 15px;
-    color: #aaa;
+    color: #0A0A0A;
     margin: 0 0 15px 0;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -990,7 +991,7 @@ third {
     width: 175px;
     height: 50px;
     letter-spacing: 0px;
-    background: #df0031;
+    background: #49b5e7;
     border-radius: 3px;
     color: #ffffff;
     font-size: 16px;
@@ -1011,7 +1012,7 @@ third {
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #232323;
+    background: #EFEFEF;
 }
 
 .footer_bottom {
@@ -1148,9 +1149,9 @@ third {
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
     background: #fff;
-    color: #df0031;
+    color: #49b5e7;
     text-decoration: none;
-    border: #df0031 solid 1px;
+    border: #49b5e7 solid 1px;
 }
 
 .section-title h2 {
@@ -1719,7 +1720,7 @@ font-size: 30px;
 padding: 60px 0 50px;
 } 
 .navbar-inverse .navbar-toggle .icon-bar{
-background:#df0031;
+background:#49b5e7;
 }
 .navbar-inverse .navbar-toggle {
 border-color: transparent;
@@ -1741,7 +1742,7 @@ margin: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
 color: #222;
-background: #F9F9F9;
+background: #EFEFEF;
 }
 } 
 @media (max-width: 480px){ 
