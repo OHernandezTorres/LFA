@@ -203,9 +203,9 @@ ul.nav_1 li.last{
 }
 /*-- banner --*/
 .banner-bg{
-	background:url(../images/2.jpg) no-repeat center top;
+	background:url(../images/1.JPG) no-repeat center top;
 }
-.banner-bg, .banner-img, .banner-img2{
+.banner-bg, .banner-img, .banner-img2, .banner-img3{
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -213,12 +213,17 @@ ul.nav_1 li.last{
 	min-height:600px;
 }
 .banner-img{
-	background:url(../images/3.jpg) no-repeat center top;
+	background:url(../images/2.jpg) no-repeat center top;
 	
 }
 .banner-img2{
-	background:url(../images/1.jpg) no-repeat center top;
+	background:url(../images/3.jpg) no-repeat center top;
 }
+
+.banner-img3{
+	background:url(../images/4.JPG) no-repeat center top;
+}
+
 .banner-info {
 	 text-align: center;
 	 padding:8em 0 0 0;
