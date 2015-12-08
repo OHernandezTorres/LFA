@@ -559,6 +559,7 @@ img {
 
 #clients {
     padding: 60px 0px;
+    background-image: url(../images/Mapa.jpg);
 }
 
 .client_area {
@@ -613,7 +614,8 @@ img {
 
 
 .client_logos {
-    background: #df0031;
+/*    background-image: url(../images/Mapa.jpg);*/
+/*    background: #df0031;*/
     padding: 60px 0;
     margin-top: 60px;
 }
@@ -1708,8 +1710,11 @@ margin: 0 18px;
 .page_section.team{
 padding: 40px 0;
 }
-, #clients {
+
+#clients {
 padding: 40px 0;
+background-image: url(../images/Mapa.jpg);
+
 }
 .client_logos ul li {
 display: inline;
