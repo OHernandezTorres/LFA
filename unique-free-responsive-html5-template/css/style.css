@@ -779,31 +779,37 @@ img {
 }
 
 .mision_area {
-    width: 960px;
+    width: 400px;
     margin: 0px auto;
 }
+
 .third {
-    width: 50%;
-    margin-right: 10%;
-    margin-left: 10%;
-    max-width: 993px;
+    width: 25.33%;
+    margin-right: 4%;
+    margin-left: 4%;
 }
-third {
+.third {
     width: 32%;
 }
+
 .fourth, .third, .half, .two-thirds, .three-fourths {
     float: left;
     margin-right: 2%;
     min-height: 1px;
 }
+
 .third {
-    width: 35%;
+    width: 25%;
 }
+
 .fourth, .third, .half, .two-thirds, .three-fourths {
     float: left;
     margin-right: 2%;
     min-height: 1px;
-} 
+}
+user agent stylesheetdiv {
+    display: block;
+}
 
 /* Contact
 ---------------------------------*/
