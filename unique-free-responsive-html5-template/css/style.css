@@ -776,8 +776,9 @@ img {
 /* Mision
 ---------------------------------*/
 #mision {
-    padding: 200px 0px;
-    background-image: url(../images/VyM.jpg);
+    padding: 150px 0px;
+    background-image: url(../images/VyM.jpg) ;
+    
 }
 
 .mision_area {
@@ -817,6 +818,7 @@ user agent stylesheetdiv {
 ---------------------------------*/
 .page_section.contact {
     padding: 90px 0 100px;
+    
 }
  
 .contact_section {
@@ -826,6 +828,7 @@ user agent stylesheetdiv {
 .contact_section h2 {
     font-size: 40px;
     color: #0A0A0A;
+    
     margin: 0 0 50px 0;
     text-transform: uppercase;
 }
@@ -1022,7 +1025,7 @@ user agent stylesheetdiv {
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #FFFFFF;
+    background-color: #EFEFEF;
 }
 
 .footer_bottom {
